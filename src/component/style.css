@@ -1,0 +1,41 @@
+.pageNumber{
+    list-style: none;
+    display: flex;
+}
+
+.pageNumber li {
+    padding: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.pageNumber li.active {
+    background-color: green;
+    color: #fff;
+}
+
+.pageNumber li button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.pageNumber li button:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.pageNumber li button:focus{
+    outline: none;
+}
+
+.loadmore{
+    padding: 1rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
